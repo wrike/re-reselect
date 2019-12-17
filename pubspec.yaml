@@ -1,8 +1,8 @@
 name: re_reselect
 description: Re-reselect is a lightweight wrapper around Reselect
-version: 0.1.0
-homepage: https://github.com/NevRA/re_reselect
-author: Roman Abdulmanov <roman.abdulmanov@gmail.com>
+version: 0.2.0
+homepage: https://github.com/wrike/re-reselect
+author: Roman Abdulmanov <roman.abdulmanov@team.wrike.com>
 
 environment:
   sdk: '>=2.0.0-dev.28.0 <3.0.0'
