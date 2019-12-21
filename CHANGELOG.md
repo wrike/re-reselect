@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0
+
+- Added readme
+- Updated license
+
 ## 0.1.3
 
 - Added example
