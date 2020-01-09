@@ -1,10 +1,9 @@
 library re_reselect;
 
 import 'package:reselect/reselect.dart';
-
 import 'cache/flat_cache.dart';
 
-typedef Selector<S, T> = T Function(S state);
+export 'package:reselect/reselect.dart';
 
 class SelectorClass<S, K, T> {
   final Map<K, Selector<S, T>> _cache;
