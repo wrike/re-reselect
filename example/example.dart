@@ -10,7 +10,7 @@ class OriginalState {
 }
 
 void main() {
-  // Firs state selector
+  // First state selector
   final stateSelector1 = (OriginalState state) => state.a + state.b;
 
   // Second state selector

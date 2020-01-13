@@ -1,6 +1,6 @@
 name: re_reselect
 description: Re-reselect is a lightweight wrapper around Reselect meant to enhance selectors with deeper memoization and cache management.
-version: 0.2.1
+version: 0.2.2
 homepage: https://github.com/wrike/re-reselect
 author: Roman Abdulmanov <roman.abdulmanov@team.wrike.com>
 

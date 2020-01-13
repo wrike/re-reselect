@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2
+
+- Minor typo fix
+
 ## 0.2.1
 
 - Added reselect export
