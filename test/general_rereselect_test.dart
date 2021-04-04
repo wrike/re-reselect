@@ -5,14 +5,14 @@ import 'utils/car.dart';
 import 'utils/identical_composite_key.dart';
 
 void main() {
-  int computations;
+  late int computations;
 
   group('General selectors', () {
     setUp(() {
       computations = 0;
     });
 
-    Object compute(Function func) {
+    Object? compute(Function func) {
       computations++;
       return func();
     }
