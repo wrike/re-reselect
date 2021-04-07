@@ -21,7 +21,7 @@ SelectorClass<S, K, T> createCachedSelector1<S, R1, K, T>(
   Selector<S, R1> selector,
   T Function(R1) combiner,
   Selector<S, K> keySelector, {
-  Map<K, Selector<S, T>> cacheObject,
+  Map<K, Selector<S, T>>? cacheObject,
 }) {
   final cache = cacheObject ?? FlatMapCache<K, Selector<S, T>>();
   return SelectorClass(
@@ -39,7 +39,7 @@ SelectorClass<S, K, T> createCachedSelector2<S, R1, R2, K, T>(
   Selector<S, R2> selector2,
   T Function(R1, R2) combiner,
   Selector<S, K> keySelector, {
-  Map<K, Selector<S, T>> cacheObject,
+  Map<K, Selector<S, T>>? cacheObject,
 }) {
   final cache = cacheObject ?? FlatMapCache<K, Selector<S, T>>();
   return SelectorClass(
@@ -59,7 +59,7 @@ SelectorClass<S, K, T> createCachedSelector3<S, R1, R2, R3, K, T>(
   Selector<S, R3> selector3,
   T Function(R1, R2, R3) combiner,
   Selector<S, K> keySelector, {
-  Map<K, Selector<S, T>> cacheObject,
+  Map<K, Selector<S, T>>? cacheObject,
 }) {
   final cache = cacheObject ?? FlatMapCache<K, Selector<S, T>>();
   return SelectorClass(
@@ -81,7 +81,7 @@ SelectorClass<S, K, T> createCachedSelector4<S, R1, R2, R3, R4, K, T>(
   Selector<S, R4> selector4,
   T Function(R1, R2, R3, R4) combiner,
   Selector<S, K> keySelector, {
-  Map<K, Selector<S, T>> cacheObject,
+  Map<K, Selector<S, T>>? cacheObject,
 }) {
   final cache = cacheObject ?? FlatMapCache<K, Selector<S, T>>();
   return SelectorClass(
@@ -105,7 +105,7 @@ SelectorClass<S, K, T> createCachedSelector5<S, R1, R2, R3, R4, R5, K, T>(
   Selector<S, R5> selector5,
   T Function(R1, R2, R3, R4, R5) combiner,
   Selector<S, K> keySelector, {
-  Map<K, Selector<S, T>> cacheObject,
+  Map<K, Selector<S, T>>? cacheObject,
 }) {
   final cache = cacheObject ?? FlatMapCache<K, Selector<S, T>>();
   return SelectorClass(
@@ -131,7 +131,7 @@ SelectorClass<S, K, T> createCachedSelector6<S, R1, R2, R3, R4, R5, R6, K, T>(
   Selector<S, R6> selector6,
   T Function(R1, R2, R3, R4, R5, R6) combiner,
   Selector<S, K> keySelector, {
-  Map<K, Selector<S, T>> cacheObject,
+  Map<K, Selector<S, T>>? cacheObject,
 }) {
   final cache = cacheObject ?? FlatMapCache<K, Selector<S, T>>();
   return SelectorClass(
@@ -159,7 +159,7 @@ SelectorClass<S, K, T> createCachedSelector7<S, R1, R2, R3, R4, R5, R6, R7, K, T
   Selector<S, R7> selector7,
   T Function(R1, R2, R3, R4, R5, R6, R7) combiner,
   Selector<S, K> keySelector, {
-  Map<K, Selector<S, T>> cacheObject,
+  Map<K, Selector<S, T>>? cacheObject,
 }) {
   final cache = cacheObject ?? FlatMapCache<K, Selector<S, T>>();
   return SelectorClass(
@@ -189,7 +189,7 @@ SelectorClass<S, K, T> createCachedSelector8<S, R1, R2, R3, R4, R5, R6, R7, R8, 
   Selector<S, R8> selector8,
   T Function(R1, R2, R3, R4, R5, R6, R7, R8) combiner,
   Selector<S, K> keySelector, {
-  Map<K, Selector<S, T>> cacheObject,
+  Map<K, Selector<S, T>>? cacheObject,
 }) {
   final cache = cacheObject ?? FlatMapCache<K, Selector<S, T>>();
   return SelectorClass(
@@ -221,7 +221,7 @@ SelectorClass<S, K, T> createCachedSelector9<S, R1, R2, R3, R4, R5, R6, R7, R8, 
   Selector<S, R9> selector9,
   T Function(R1, R2, R3, R4, R5, R6, R7, R8, R9) combiner,
   Selector<S, K> keySelector, {
-  Map<K, Selector<S, T>> cacheObject,
+  Map<K, Selector<S, T>>? cacheObject,
 }) {
   final cache = cacheObject ?? FlatMapCache<K, Selector<S, T>>();
   return SelectorClass(
@@ -255,7 +255,7 @@ SelectorClass<S, K, T> createCachedSelector10<S, R1, R2, R3, R4, R5, R6, R7, R8,
   Selector<S, R10> selector10,
   T Function(R1, R2, R3, R4, R5, R6, R7, R8, R9, R10) combiner,
   Selector<S, K> keySelector, {
-  Map<K, Selector<S, T>> cacheObject,
+  Map<K, Selector<S, T>>? cacheObject,
 }) {
   final cache = cacheObject ?? FlatMapCache<K, Selector<S, T>>();
   return SelectorClass(

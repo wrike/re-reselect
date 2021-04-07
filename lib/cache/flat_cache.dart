@@ -10,10 +10,10 @@ class FlatMapCache<K, V> implements Map<K, V> {
   void clear() => _map.clear();
 
   @override
-  bool containsKey(Object key) => _map.containsKey(key);
+  bool containsKey(Object? key) => _map.containsKey(key);
 
   @override
-  bool containsValue(Object value) => _map.containsValue(value);
+  bool containsValue(Object? value) => _map.containsValue(value);
 
   @override
   bool get isEmpty => _map.isEmpty;
@@ -43,19 +43,19 @@ class FlatMapCache<K, V> implements Map<K, V> {
   V putIfAbsent(K key, V Function() ifAbsent) => _map.putIfAbsent(key, ifAbsent);
 
   @override
-  V remove(Object key) => _map.remove(key);
+  V? remove(Object? key) => _map.remove(key);
 
   @override
   void removeWhere(bool Function(K key, V value) predicate) => _map.removeWhere(predicate);
 
   @override
-  V update(K key, V Function(V value) update, {V Function() ifAbsent}) => _map.update(key, update);
+  V update(K key, V Function(V value) update, {V Function()? ifAbsent}) => _map.update(key, update);
 
   @override
   void updateAll(V Function(K key, V value) update) => _map.updateAll(update);
 
   @override
-  V operator [](Object key) => _map[key];
+  V? operator [](Object? key) => _map[key];
 
   @override
   void operator []=(K key, V value) => _map[key] = value;

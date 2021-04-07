@@ -5,7 +5,7 @@ class LruCache<K, V> extends FifoCache<K, V> {
 
   @override
   V putIfAbsent(K key, V Function() ifAbsent) {
-    if (containsKey(key)) {
+    if (containsKey(key!)) {
       remove(key);
     }
 
